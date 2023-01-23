@@ -154,6 +154,7 @@ namespace nanodbc
 #define NANODBC_SUPPORT_STRING_VIEW
 #endif
 #endif
+#undef NANODBC_SUPPORT_STRING_VIEW
 
 // You must explicitly request Unicode support by defining NANODBC_ENABLE_UNICODE at compile time.
 #ifndef DOXYGEN
